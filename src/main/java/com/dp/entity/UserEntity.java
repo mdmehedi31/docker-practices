@@ -1,29 +1,29 @@
 package com.dp.entity;
 
-
+/*
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.Table;*/
 
-@Entity
-@Table(name = "users")
+/*@Entity
+@Table(name = "users")*/
 public class UserEntity {
 
-    @Id
-    @Column(name = "id")
+   // @Id
+   // @Column(name = "id")
     private Integer id;
 
-    @Column(name = "name")
+   // @Column(name = "name")
     private String name;
 
-    @Column(name = "email")
+  //  @Column(name = "email")
     private String email;
 
-    @Column(name = "address")
+  //  @Column(name = "address")
     private String address;
 
-    @Column(name = "phone_no")
+  //  @Column(name = "phone_no")
     private String phone;
 
     public Integer getId() {
