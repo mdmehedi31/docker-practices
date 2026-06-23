@@ -27,7 +27,7 @@ public class UserService {
     }
 
     public UserEntity findById(int id) {
-        return userRepository.findById(id).get();
+        return userRepository.findById(id).isPresent() ? userRepository.findById(id).get() : new UserEntity();
     }
 
 

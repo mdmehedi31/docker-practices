@@ -23,7 +23,7 @@ public class UserEntity {
     @Column(name = "address")
     private String address;
 
-    @Column(name = "phone")
+    @Column(name = "phone_no")
     private String phone;
 
     public Integer getId() {
