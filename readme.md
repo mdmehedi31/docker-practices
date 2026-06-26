@@ -31,7 +31,6 @@ For look images
 ```docker images```
 
 
-
 For run images 
 ``docker run <image name with tag>``
 
@@ -42,3 +41,15 @@ so you need to make connection/pair with machine port and docker port, then you 
 
 Here is the command
 ``docker run -p <machine port>:<docker port> <docker image name with tag>``
+
+Deleting the container
+```docker container prune```
+
+Stop container
+```docker stop <CONTAINER_ID>```
+
+ Run with same volume
+ `` docker run -d -v <volume name>:<Volume store location> -p <Prot> <image name>``
+ 
+See volume list
+``docker volume  ls``
